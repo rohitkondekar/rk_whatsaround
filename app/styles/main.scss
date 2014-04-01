@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Allura';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/allura/v2/piROihwq0_hcWhCbsLJUv-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+//@font-face {
+//  font-family: 'Ubuntu';
+//  font-style: normal;
+//  font-weight: 500;
+//  src: url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/OsJ2DjdpjqFRVUSto6IffLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+//}
+
+//@font-face {
+//  font-family: 'Josefin Sans';
+//  src: url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+//}
+
+.cursive{
+  font-family:'Allura',sans-serif;
+  font-style: cursive;
+  font-weight: 400;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.appName{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: cursive;
+  font-size: 3em;
+  color: #FFE500;
+}
+
+.appHeading{
+  margin-top:15%;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  text-align: center;
+}
+
+.bottom{
+  position:absolute;
+  bottom:0;
+}
+
+.rightText{
+  text-align: right;
+}
+
+.gradientBackground{
+  /* IE10 Consumer Preview */
+  background-image: -ms-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+
+  /* Opera */
+  background-image: -o-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #EBEBEB), color-stop(1, #E0CECE));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: radial-gradient(circle farthest-corner at center, #EBEBEB 0%, #E0CECE 100%);
+}
+
+.gradientBackgroundGrayWhite{
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #CFCFCF), color-stop(1, #999999));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #CFCFCF 0%, #999999 100%);
+}
+
+.blurred-background-blackMagenta{
+  background: url('images/general/icons-asphalt.jpg') no-repeat fixed;
+  background-size: cover;
+  opacity:0.9;
+}
+
+.transparentBackground{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.loaderContainer{
+  position:fixed;
+  font-size: 2em;
+  left:49%;
+}
+
+.adsContent{
+  height:60px;
+  font-size:16px;
+  overflow:hidden;
+  font-style: oblique;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
