@@ -1,8 +1,19 @@
-@font-face {
-  font-family: 'Allura';
-  font-style: normal;
-  font-weight: 400;
-  src: url(http://themes.googleusercontent.com/static/fonts/allura/v2/piROihwq0_hcWhCbsLJUv-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+@font-face
+{
+  font-family: AlexBrush;
+  src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face
+{
+  font-family: Calligraffitti;
+  src: url(../fonts/Calligraffitti.ttf);
+}
+
+@font-face
+{
+  font-family: Pacifico;
+  src: url(../fonts/Pacifico.ttf);
 }
 
 //@font-face {
@@ -16,20 +27,19 @@
 //  font-family: 'Josefin Sans';
 //  src: url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 //}
+@import "./app";
 
 .cursive{
-  font-family:'Allura',sans-serif;
-  font-style: cursive;
-  font-weight: 400;
+  font-family: 'AlexBrush',sans-serif;
   font-size: 2em;
   color: #FFFFFF;
 }
 
 .appName{
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Pacifico", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-style: cursive;
   font-size: 3em;
-  color: #FFFFFF;
+  color: #ffb058;
 }
 
 .appHeading{

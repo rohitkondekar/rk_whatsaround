@@ -1,0 +1,83 @@
+
+
+// Colors
+// -------------------------------
+
+$light:                           #fff ;
+$stable:                          #f8f8f8;
+$positive:                        #4a87ee;
+$calm:                            #43cee6 ;
+$balanced:                        #66cc33 ;
+$energized:                       #40C1A0 ;
+$assertive:                       #ef4e3a;
+$royal:                           #8a6de9 ;
+$dark:                            #444 ;
+
+$button-font-size:                17px;
+
+$button-border-radius:            5px;
+$button-border-width:             1px;
+
+
+$button-light-bg:                 $light !default;
+$button-light-text:               #444 !default;
+$button-light-border:             #ddd !default;
+$button-light-active-bg:          #fafafa !default;
+$button-light-active-border:      #ccc !default;
+
+$button-stable-bg:                $stable !default;
+$button-stable-text:              #444 !default;
+$button-stable-border:            #b2b2b2 !default;
+$button-stable-active-bg:         #e5e5e5 !default;
+$button-stable-active-border:     #a2a2a2 !default;
+
+$button-positive-bg:              $positive !default;
+$button-positive-text:            #fff !default;
+$button-positive-border:          darken($positive, 15%) !default;
+$button-positive-active-bg:       darken($positive, 15%) !default;
+$button-positive-active-border:   darken($positive, 15%) !default;
+
+$button-calm-bg:                  $calm !default;
+$button-calm-text:                #fff !default;
+$button-calm-border:              darken($calm, 15%) !default;
+$button-calm-active-bg:           darken($calm, 15%) !default;
+$button-calm-active-border:       darken($calm, 15%) !default;
+
+$button-assertive-bg:             $assertive !default;
+$button-assertive-text:           #fff !default;
+$button-assertive-border:         opacify($assertive,0);
+$button-assertive-active-bg:      darken($assertive, 15%) !default;
+$button-assertive-active-border:  opacify($assertive,0);
+
+$button-balanced-bg:              $balanced !default;
+$button-balanced-text:            #fff !default;
+$button-balanced-border:          darken($balanced, 15%) !default;
+$button-balanced-active-bg:       darken($balanced, 15%) !default;
+$button-balanced-active-border:   darken($balanced, 15%) !default;
+
+$button-energized-bg:             $energized !default;
+$button-energized-text:           #fff !default;
+$button-energized-border:         darken($energized, 15%) !default;
+$button-energized-active-bg:      darken($energized, 15%) !default;
+$button-energized-active-border:  darken($energized, 15%) !default;
+
+$button-royal-bg:                 $royal !default;
+$button-royal-text:               #fff !default;
+$button-royal-border:             darken($royal, 15%) !default;
+$button-royal-active-bg:          darken($royal, 15%) !default;
+$button-royal-active-border:      darken($royal, 15%) !default;
+
+$button-dark-bg:                  $dark !default;
+$button-dark-text:                #fff !default;
+$button-dark-border:              #111 !default;
+$button-dark-active-bg:           #262626 !default;
+$button-dark-active-border:       #000 !default;
+
+$button-default-bg:               $button-stable-bg !default;
+$button-default-text:             $button-stable-text !default;
+$button-default-border:           $button-stable-border !default;
+$button-default-active-bg:        $button-stable-active-bg !default;
+$button-default-active-border:    $button-stable-active-border !default;
+
+
+@import "scss/ionic";
