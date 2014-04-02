@@ -29,7 +29,7 @@
   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-style: cursive;
   font-size: 3em;
-  color: #FFE500;
+  color: #FFFFFF;
 }
 
 .appHeading{
@@ -56,50 +56,76 @@
   text-align: right;
 }
 
-.gradientBackground{
-  /* IE10 Consumer Preview */
-  background-image: -ms-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-
-  /* Mozilla Firefox */
-  background-image: -moz-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-
-  /* Opera */
-  background-image: -o-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #EBEBEB), color-stop(1, #E0CECE));
-
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-
-  /* W3C Markup, IE10 Release Preview */
-  background-image: radial-gradient(circle farthest-corner at center, #EBEBEB 0%, #E0CECE 100%);
+.textured_stripes{
+  background:url(../images/general/textured_stripes.png);
 }
+
+.textured_paper{
+  background:url(../images/general/exclusive_paper.png);
+}
+
+.textured_giftly{
+  background:url(../images/general/giftly3.jpg);
+}
+
+.textured_cartographer{
+  background:url(../images/general/cartographer.png);
+}
+
+.textured_photography{
+  background:url(../images/general/photography.png);
+}
+
+.gradientBackground{
+  //  /* IE10 Consumer Preview */
+  //  background: -ms-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+  //
+  //  /* Mozilla Firefox */
+  //  background: -moz-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+  //
+  //  /* Opera */
+  //  background: -o-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+  //
+  //  /* Webkit (Safari/Chrome 10) */
+  //  background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #EBEBEB), color-stop(1, #E0CECE));
+  //
+  //  /* Webkit (Chrome 11+) */
+  //  background: -webkit-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
+  //
+  //  /* W3C Markup, IE10 Release Preview */
+  //  background: radial-gradient(circle farthest-corner at center, #EBEBEB 0%, #E0CECE 100%);
+}
+
+.transparent{
+  background: none;
+}
+
+
 
 .gradientBackgroundGrayWhite{
   /* IE10 Consumer Preview */
-  background-image: -ms-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+  background: -ms-linear-gradient(left, #CFCFCF 0%, #999999 100%);
 
   /* Mozilla Firefox */
-  background-image: -moz-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+  background: -moz-linear-gradient(left, #CFCFCF 0%, #999999 100%);
 
   /* Opera */
-  background-image: -o-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+  background: -o-linear-gradient(left, #CFCFCF 0%, #999999 100%);
 
   /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #CFCFCF), color-stop(1, #999999));
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #CFCFCF), color-stop(1, #999999));
 
   /* Webkit (Chrome 11+) */
-  background-image: -webkit-linear-gradient(left, #CFCFCF 0%, #999999 100%);
+  background: -webkit-linear-gradient(left, #CFCFCF 0%, #999999 100%);
 
   /* W3C Markup, IE10 Release Preview */
-  background-image: linear-gradient(to right, #CFCFCF 0%, #999999 100%);
+  background: linear-gradient(to right, #CFCFCF 0%, #999999 100%);
 }
 
 .blurred-background-blackMagenta{
-  background: url('images/general/icons-asphalt.jpg') no-repeat fixed;
-  background-size: cover;
-  opacity:0.9;
+//  background: url('../images/general/icons-asphalt.jpg') no-repeat fixed;
+//  background-size: cover;
+//  opacity:0.9;
 }
 
 .transparentBackground{
@@ -117,6 +143,7 @@
   font-size:16px;
   overflow:hidden;
   font-style: oblique;
+  border: 0px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 

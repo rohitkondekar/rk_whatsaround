@@ -73,9 +73,11 @@
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/electronicsIcons/layer7.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/electronicsIcons/layer8.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/electronicsIcons/layer9.png \
-/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/cityBackground.jpg \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/cartographer.png \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/exclusive_paper.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/icons-asphalt.jpg \
-/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/pattern1.png \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/photography.png \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/textured_stripes.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/restaurantsIcons/layer1.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/restaurantsIcons/layer10.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/restaurantsIcons/layer11.png \

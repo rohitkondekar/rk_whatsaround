@@ -112,7 +112,7 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
 
             //Hide First Nav Bar on Unauthorized page
             $ionicNavBarDelegate.$getByHandle('firstBar').showBar(false);
-
+            $scope.dataLoaded = false;
 
             //Handle Tab Links
             var location = $location.url().split("/");
@@ -127,23 +127,23 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
 
 
             //Change Ads after some interval
-            var timeout = 5000;
-            var changeAds = $interval($scope.setCurrentAdv,timeout);
+//            var timeout = 5000;
+//            var changeAds = $interval($scope.setCurrentAdv,timeout);
 
-            $scope.setCurrentAdv = function(){
-
-                for (var i in $scope.shops){
-                    if(!$scope.shops[i].hasOwnProperty('currentAd')){
-                        $scope.shops[i].currentAd = 0;
-                    }
-                    else{
-                        $scope.shops[i].currentAd = ($scope.shops[i].currentAd+ Math.floor((Math.random()*($scope.shops[i].ads.length-1))+1)) % $scope.shops[i].ads.length;
-                    }
-                }
-
-                changeAds = $interval($scope.setCurrentAdv,timeout,1);
-
-            }
+//            $scope.setCurrentAdv = function(){
+//
+//                for (var i in $scope.shops){
+//                    if(!$scope.shops[i].hasOwnProperty('currentAd')){
+//                        $scope.shops[i].currentAd = 0;
+//                    }
+//                    else{
+//                        $scope.shops[i].currentAd = ($scope.shops[i].currentAd+ Math.floor((Math.random()*($scope.shops[i].ads.length-1))+1)) % $scope.shops[i].ads.length;
+//                    }
+//                }
+//
+//                changeAds = $interval($scope.setCurrentAdv,timeout,1);
+//
+//            }
             //------
 
             //Set Shop type for Image
@@ -169,7 +169,6 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
                 return dist.toFixed(2);
             };
 
-
             var calcDistances = function(cord){
                 for (var i in $scope.shops){
                     $scope.shops[i].distance = getDistanceInKilometer($scope.shops[i]._geoloc[1],$scope.shops[i]._geoloc[0],cord[1],cord[0],"K");
@@ -179,8 +178,10 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
             var getShops = function(){
                 cordovaReady(
                     navigator.geolocation.getCurrentPosition(
+
                         //success
                         function(pos){
+                            console.log(pos.coords.longitude+"   "+pos.coords.latitude);
                             getShopsHelper(pos);
                         },
                         function(error){
@@ -215,24 +216,18 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
                     query.equalTo("Category", "Electronics");
                 }
 
-                console.log("Tab and Category -- "+tab+" "+category);
-
                 var promise = $kinvey.DataStore.find("shops",query);
 
                 promise.then(function(response){
-
                         $scope.shops = response;
                         $scope.setShopType();
-                        $scope.setCurrentAdv();
                         calcDistances(cord);
                         $scope.dataLoaded = true;
-
+                        console.log("data loaded-------------------------------------")
                     },
                     function(error){
                         console.log(category+" "+tab+" --- "+ error);
                     });
-
-
             }
 
 //        $scope.$on('$stateChangeSuccess',function(event, toState, toParams, fromState, fromParams){

@@ -7,57 +7,58 @@ dimension: 128px
 -->
 
 <ion-view title="{{ title }}" hideNavBar="false">
-    <ion-content scroll="true" has-header="true" has-footer="true" padding="true" class="gradientBackground">
+    <ion-content scroll="true" has-header="true" has-footer="true" padding="true" class="textured_stripes">
 
         <div class="loaderContainer" ng-show="!dataLoaded">
             <div class="icon-center ion-loading-b loadingIcon">
             </div>
         </div>
 
-        <div ng-show="dataLoaded" ng-repeat="shop in shops">
 
-            <div class="card transparentBackground" style="margin-left: 0px;margin-right: 0px">
+        <div ng-show="dataLoaded" ng-repeat="shop in shops" class="card transparentBackground"
+             style="margin-left: 0px;margin-right: 0px">
 
-                <div class="row item item-divider transparentBackground">
+            <div class="row item item-divider transparentBackground">
 
-                    <div class="col col-20" >
-                        <img style="width:68px;height:68px" ng-src="{{ shop.typeImage }}">
+                <!--<div >-->
+                <img class="col col-20" style="width:68px;height:68px" ng-src="{{ shop.typeImage }}">
+                <!--</div>-->
+
+                <div class="col col-5"></div>
+
+                <div class="col col-75 transparentBackgroundBorderLess">
+
+                    <div class="row transparentBackgroundBorderLess">
+                        {{ shop.shopname }}
                     </div>
 
-                    <div class="col col-5">
+                    <p class="row transparentBackgroundBorderLess" style="font-style: oblique;font-weight:lighter;">
+                        {{ shop.location.area }}
+                    </p>
 
-                    </div>
+                    <div class="row transparentBackgroundBorderLess">
 
-                    <div class="col col-75 transparentBackgroundBorderLess">
-
-                        <div class="row transparentBackgroundBorderLess">
-                            {{ shop.shopname }}
-                        </div>
-
-                        <p class="row transparentBackgroundBorderLess" style="font-style: oblique;font-weight:lighter;" >
-                            {{ shop.location.area }}
-                        </p>
-
-                        <div class="row transparentBackgroundBorderLess" >
-
-                            <span class="icon-left ion-location">
-                                <span style="font-style: italic">
-                                    {{ shop.distance }} KM
-                                </span>
-                            </span>
-
-                        </div>
+                        <span class="icon-left ion-location" style="font-style: italic">
+                            {{ shop.distance }} KM
+                        </span>
 
                     </div>
 
-                </div>
-
-                <div class="adsContent item item-text-wrap transparentBackground" slide-in-up ng-model="shop.ads[shop.currentAd]">
-                    {{ shop.ads[shop.currentAd] }}
                 </div>
 
             </div>
+
+
+            <ion-slide-box class="transparentBackground" does-continue="true" show-pager="false">
+                <ion-slide ng-repeat="ad in shop.ads">
+                    <div class="box item item-text-wrap adsContent transparentBackground">
+                        {{ ad }}
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+
         </div>
+
 
     </ion-content>
 </ion-view>
