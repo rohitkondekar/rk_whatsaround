@@ -23,29 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="725" selection-end="725" vertical-scroll-proportion="0.48465267" vertical-offset="0" max-vertical-offset="619">
+            <state line="212" column="50" selection-start="6994" selection-end="6994" vertical-scroll-proportion="0.0" vertical-offset="4495" max-vertical-offset="5140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <file leaf-file-name="data.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/data.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="551" selection-end="551" vertical-scroll-proportion="14.117647" vertical-offset="1080" max-vertical-offset="1760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="148" selection-end="189" vertical-scroll-proportion="17.254902" vertical-offset="1000" max-vertical-offset="13320">
-              <folding />
+            <state line="13" column="25" selection-start="375" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1420">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,16 +46,16 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="937" selection-end="937" vertical-scroll-proportion="5.8627453" vertical-offset="1339" max-vertical-offset="3300">
+            <state line="147" column="0" selection-start="3327" selection-end="3338" vertical-scroll-proportion="-3.2236843" vertical-offset="2695" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unauthorizedhome.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/unauthorizedhome.html">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="101" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-21.0" vertical-offset="74" max-vertical-offset="960">
+            <state line="201" column="50" selection-start="7100" selection-end="7100" vertical-scroll-proportion="0.4113924" vertical-offset="3760" max-vertical-offset="4960">
               <folding />
             </state>
           </provider>
@@ -79,20 +72,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/services.js" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/bower_components/ionic/release/js/ionic.bundle.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers.js" />
-        <option value="$PROJECT_DIR$/app/templates/data.html" />
         <option value="$PROJECT_DIR$/app/bower_components/ionic/release/css/ionic.css" />
         <option value="$PROJECT_DIR$/app/bower_components/ionic/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/ionic.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/home.html" />
         <option value="$PROJECT_DIR$/app/templates/unauthorizedhome.html" />
-        <option value="$PROJECT_DIR$/app/styles/app.scss" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/templates/signup.html" />
         <option value="$PROJECT_DIR$/app/templates/login.html" />
+        <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/templates/data.html" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers.js" />
       </list>
     </option>
   </component>
@@ -156,6 +149,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatsaround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,37 +379,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/scss/ionicons/ionicons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/ionic/release/css/ionic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4199" column="31" selection-start="106287" selection-end="106298" vertical-scroll-proportion="0.33278418" vertical-offset="83778" max-vertical-offset="126880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="50" selection-start="2364" selection-end="2364" vertical-scroll-proportion="0.61227787" vertical-offset="941" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="551" selection-end="551" vertical-scroll-proportion="14.117647" vertical-offset="1080" max-vertical-offset="1760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="148" selection-end="189" vertical-scroll-proportion="17.254902" vertical-offset="1000" max-vertical-offset="13320">
+        <state line="6" column="41" selection-start="148" selection-end="189" vertical-scroll-proportion="-1.51463" vertical-offset="1000" max-vertical-offset="13320">
           <folding />
         </state>
       </provider>
@@ -402,13 +421,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="8" selection-start="937" selection-end="937" vertical-scroll-proportion="5.8627453" vertical-offset="1339" max-vertical-offset="3300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="117" selection-start="169" selection-end="197" vertical-scroll-proportion="0.032310177" vertical-offset="0" max-vertical-offset="619">
@@ -418,14 +430,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/unauthorizedhome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="101" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-21.0" vertical-offset="74" max-vertical-offset="960">
+        <state line="31" column="101" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.9009901" vertical-offset="74" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="725" selection-end="725" vertical-scroll-proportion="0.48465267" vertical-offset="0" max-vertical-offset="619">
+        <state line="15" column="60" selection-start="725" selection-end="725" vertical-scroll-proportion="-11.538462" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="43" selection-start="424" selection-end="424" vertical-scroll-proportion="0.4040404" vertical-offset="0" max-vertical-offset="1760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="50" selection-start="6994" selection-end="6994" vertical-scroll-proportion="0.0" vertical-offset="4495" max-vertical-offset="5140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="0" selection-start="3327" selection-end="3338" vertical-scroll-proportion="-3.2236843" vertical-offset="2695" max-vertical-offset="3300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="375" selection-end="375" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1420">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="50" selection-start="7100" selection-end="7100" vertical-scroll-proportion="0.4113924" vertical-offset="3760" max-vertical-offset="4960">
           <folding />
         </state>
       </provider>

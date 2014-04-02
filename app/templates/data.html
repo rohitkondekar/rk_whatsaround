@@ -9,8 +9,9 @@ dimension: 128px
 <ion-view title="{{ title }}" hideNavBar="false">
     <ion-content scroll="true" has-header="true" has-footer="true" padding="true" class="textured_stripes">
 
-        <div class="loaderContainer" ng-show="!dataLoaded">
-            <div class="icon-center ion-loading-b loadingIcon">
+        <div class="center" ng-show="!dataLoaded">
+            <div class="center icon ion-loop">
+                Loading..
             </div>
         </div>
 
@@ -49,8 +50,8 @@ dimension: 128px
             </div>
 
 
-            <ion-slide-box class="transparentBackground" does-continue="true" show-pager="false">
-                <ion-slide ng-repeat="ad in shop.ads">
+            <ion-slide-box class="transparentBackground adsContent" does-continue="true" show-pager="false">
+                <ion-slide class="adsContent" ng-repeat="ad in shop.ads">
                     <div class="box item item-text-wrap adsContent transparentBackground">
                         {{ ad }}
                     </div>

@@ -47,10 +47,13 @@
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/scripts \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/styles \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/templates \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/AlexBrush-Regular.ttf \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/Calligraffitti.ttf \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/ionicons.eot \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/ionicons.svg \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/ionicons.ttf \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/ionicons.woff \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/fonts/Pacifico.ttf \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/clothingIcons \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/electronicsIcons \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general \
@@ -75,6 +78,9 @@
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/electronicsIcons/layer9.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/cartographer.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/exclusive_paper.png \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/giftly.png \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/giftly2.jpg \
+/Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/giftly3.jpg \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/icons-asphalt.jpg \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/photography.png \
 /Users/rohitkondekar/Projects/startup/whatsaround/platforms/android/assets/www/images/general/textured_stripes.png \

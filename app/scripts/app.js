@@ -209,7 +209,8 @@ angular.module('Whatsaround',
             if(toState.url.indexOf("login")!=-1 || toState.url.indexOf("signup")!=-1){
                 var user;
                 if(user=Auth.getCurrentUser()){
-                    $window.localStorage.setItem("user", JSON.stringify(user));
+                    //$window.localStorage.setItem("user", JSON.stringify(user));
+                    $rootScope.currentUser = user;
                     event.preventDefault();
                     $state.go("home.all.recommended");
                 }

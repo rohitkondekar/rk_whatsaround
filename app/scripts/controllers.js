@@ -9,7 +9,7 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
         $scope.login = function(user){
             if(user){
                 Auth.login(user).then(function(response){
-                        console.log("User Logged in -- "+JSON.stringify(response));
+                        $rootScope.currentUser = response;
                         $state.go('home.all.recommended');
                     },
                     function(error){
@@ -199,7 +199,7 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
                 var cord = [position.coords.longitude,position.coords.latitude];
                 var query = new $kinvey.Query();
 
-                query.near('_geoloc', cord , 100);
+                query.near('_geoloc', cord , 100000);
 
 
                 if(tab.indexOf("recommend")!=-1){
