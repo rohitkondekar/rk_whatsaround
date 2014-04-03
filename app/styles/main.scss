@@ -27,7 +27,7 @@
 //  font-family: 'Josefin Sans';
 //  src: url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 //}
-@import "./app";
+@import "app";
 
 .cursive{
   font-family: 'AlexBrush',sans-serif;
@@ -75,7 +75,8 @@
 }
 
 .textured_giftly{
-  background:url(../images/general/giftly3.jpg);
+  background-image: url(../images/general/giftly_2.png);
+
 }
 
 .textured_cartographer{
@@ -84,6 +85,16 @@
 
 .textured_photography{
   background:url(../images/general/photography.png);
+
+}
+
+.backgroundImage{
+  background:url(../images/general/bgImage1.jpg);
+}
+
+.imageWidth{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .gradientBackground{

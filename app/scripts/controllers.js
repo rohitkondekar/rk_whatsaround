@@ -3,16 +3,19 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
 
 
 //    Login Controller
-    .controller('LoginCtrl', ['$scope', '$location', 'Auth', '$state',function ($scope, $location, Auth, $state) {
+    .controller('LoginCtrl', ['$scope', '$location', 'Auth', '$state', 'Loader', '$rootScope', function ($scope, $location, Auth, $state, Loader, $rootScope) {
 
 
         $scope.login = function(user){
             if(user){
+                Loader.show();
                 Auth.login(user).then(function(response){
+                        Loader.hide();
                         $rootScope.currentUser = response;
                         $state.go('home.all.recommended');
                     },
                     function(error){
+                        Loader.hide();
                         console.log("Error in logging user -- "+JSON.stringify(error));
                     });
             }
@@ -25,17 +28,20 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
 
 
 //    Signup Controller
-    .controller('SignupCtrl', ['$scope', '$location', 'Auth', '$ionicLoading', function ($scope, $location, Auth, $ionicLoading) {
+    .controller('SignupCtrl', ['$scope', '$location', 'Auth', '$ionicLoading', 'LoadingService', '$rootScope', function ($scope, $location, Auth, $ionicLoading, LoadingService, $rootScope) {
 
         $scope.signup = function (user) {
             if (user) {
-                showLoading();
+               Loader.show();
                 Auth.signUp(user).then(function (response) {
+                        Loader.hide();
                         console.log("User successfully signed -- " + JSON.stringify(response));
+                        $rootScope.currentUser = response;
                         $location.path('home.all.recommended');
                         hide();
                     },
                     function (error) {
+                        Loader.hide();
                         console.log("Error signing up user -- " + JSON.stringify(error));
                         hide();
                     });
@@ -44,29 +50,6 @@ angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
                 console.log("Error signing up user -- user null");
             }
         }
-
-        var showLoading = function () {
-            // Show the loading overlay and text
-            $scope.loading = $ionicLoading.show({
-
-                // The text to display in the loading indicator
-                content: 'Loading',
-
-                // The animation to use
-                animation: 'fade-in',
-
-                // Will a dark overlay or backdrop cover the entire view
-                showBackdrop: true,
-
-                showDelay: 500
-            });
-        };
-
-        // Hide the loading indicator
-        var hide = function () {
-            $scope.loading.hide();
-        };
-
 
     }])
 

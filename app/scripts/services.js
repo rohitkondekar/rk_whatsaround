@@ -1,5 +1,5 @@
 'use strict';
-angular.module('Whatsaround.services', ['kinvey'])
+angular.module('Whatsaround.services', ['kinvey','ionic'])
 
     .service('Auth',['$kinvey',function Auth($kinvey) {
         // AngularJS will instantiate a singleton by calling "new" on this function
@@ -63,5 +63,23 @@ angular.module('Whatsaround.services', ['kinvey'])
                 return impl.apply(this, arguments);
             };
         };
-    });
+    })
+
+    .factory('Loader',['$ionicLoading','$rootScope',function($ionicLoading,$rootScope){
+        var Loader = {
+            show: function(){
+                $rootScope.loading = $ionicLoading.show({
+                    content: 'Loading',
+                    animation: 'fade-in',
+                    showBackdrop: true,
+                    showDelay: 300
+                });
+            },
+
+            hide: function(){
+                $rootScope.loading.hide();
+            }
+        }
+        return Loader;
+    }])
 
