@@ -27,5 +27,6 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <preference name="Fullscreen" value="true" />
     <access origin="*" />
 </widget>

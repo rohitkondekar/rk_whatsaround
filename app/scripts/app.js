@@ -27,9 +27,7 @@ angular.module('Whatsaround',
             .state('unauthorizedhome', {
                 url: "/unauthorizedhome",
                 templateUrl: 'templates/unauthorizedhome.html',
-                controller: function () {
-                    console.log("In unauthorizedHome controller");
-                }
+                controller: 'unauthorizedhomeCtrl'
             })
 
             .state('login', {

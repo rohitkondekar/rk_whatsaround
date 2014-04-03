@@ -1,43 +1,110 @@
-<ion-view hide-nav-bar="true" class="imageWidth">
+<ion-view hide-nav-bar="true">
     <!--<ion-content scroll="false" has-header="false" overflow-scroll="false" class="blurred-background-blackMagenta">-->
-    <ion-pane class="backgroundImage">
-        <div class="center">
+    <ion-pane class="textured_giftly">
 
-            <div class="appHeading">
+        <div class="center appHeading">
 
-                <h2 class="appName">WhatsAround</h2>
-                <h4 class="cursive">Know your local market place</h4>
+            <h2 class="appName">WhatsAround</h2>
+            <h4 class="cursive_heading">Know your local market place</h4>
+
+        </div>
+
+        <ion-slide-box class="center mainSlide" does-continue="true" slide-interval="3000">
+            <ion-slide>
+                <img class="circular" src="images/general/hotel_1.jpg" alt="Restaurant"/>
+                <h4 class="cursive">Find amazing offers in nearby restaurants!</h4>
+            </ion-slide>
+            <ion-slide>
+                <img class="circular" src="images/general/phone.jpg" alt="Electronics"/>
+                <h4 class="cursive">Find great discounts on electronics in shops right down your alley!</h4>
+            </ion-slide>
+            <ion-slide>
+                <img class="circular" src="images/general/clothing.jpg" alt="Clothing"/>
+                <h4 class="cursive">Know about sales and enjoy shopping!</h4>
+            </ion-slide>
+        </ion-slide-box>
+
+        <div class="captions center">Swipe right/left to talk a tour</div>
+
+
+        <div class="centerText bottom">
+
+            <button class="cursive_button button button-clear button-positive">
+                    Facebook
+            </button>
+
+            <button class="cursive_button button button-clear button-assertive">
+                Google
+            </button>
+
+            <br/>
+
+            <div>
+                <button class="alignleft cursive_button button button-clear button-dark" ui-sref="signup">
+                    Signup?
+                </button>
+
+                <button class="aligncenter cursive_button button button-clear button-dark" ui-sref="login">
+                    LogIn
+                </button>
+
+                <button class="alignright cursive_button button button-clear button-dark">
+                    Skip
+                </button>
 
             </div>
 
-            <div class=" center bottom">
-                <hr/>
-                <button class="button button-block icon-left ion-social-facebook button-positive">
-                    <!--<div class="center">-->
-                        Facebook
-                    <!--</div>-->
-                </button>
 
-                <button class="button button-block icon-left ion-social-googleplus button-assertive">
-                    <div class="center">
-                        Google
-                    </div>
-                </button>
-                <hr/>
+            <span class="rightText">
 
-                <button class="icon-left transparentBackground ion-android-contact button button-block  button-stable" ui-sref="login">
-                    Login
-                </button>
+            </span>
 
-                <button class="icon-left ion-android-add-contact button button-block button-stable" ui-sref="signup">
-                    Sign up
-                </button>
+            <div class="rightText">
 
-                <button class="button button-clear button-stable">
-                    Skip Login
-                </button>
             </div>
         </div>
+
+
+
+
+
+        <!--<div class="center">-->
+
+            <!--<div class="appHeading">-->
+
+                <!--<h2 class="appName">WhatsAround</h2>-->
+                <!--<h4 class="cursive">Know your local market place</h4>-->
+
+            <!--</div>-->
+
+            <!--<div class=" center bottom">-->
+                <!--<hr/>-->
+                <!--<button class="button button-block icon-left ion-social-facebook button-positive">-->
+                    <!--&lt;!&ndash;<div class="center">&ndash;&gt;-->
+                        <!--Facebook-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--</button>-->
+
+                <!--<button class="button button-block icon-left ion-social-googleplus button-assertive">-->
+                    <!--<div class="center">-->
+                        <!--Google-->
+                    <!--</div>-->
+                <!--</button>-->
+                <!--<hr/>-->
+
+                <!--<button class="icon-left transparentBackground ion-android-contact button button-block  button-stable" ui-sref="login">-->
+                    <!--Login-->
+                <!--</button>-->
+
+                <!--<button class="icon-left ion-android-add-contact button button-block button-stable" ui-sref="signup">-->
+                    <!--Sign up-->
+                <!--</button>-->
+
+                <!--<button class="button button-clear button-stable">-->
+                    <!--Skip Login-->
+                <!--</button>-->
+            <!--</div>-->
+        <!--</div>-->
     </ion-pane>
     <!--</ion-content>-->
 </ion-view>

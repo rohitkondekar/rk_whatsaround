@@ -16,58 +16,100 @@
   src: url(../fonts/Pacifico.ttf);
 }
 
-//@font-face {
-//  font-family: 'Ubuntu';
-//  font-style: normal;
-//  font-weight: 500;
-//  src: url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/OsJ2DjdpjqFRVUSto6IffLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-//}
+@font-face
+{
+  font-family: Capriola;
+  src: url(../fonts/Capriola-Regular.ttf);
+}
 
-//@font-face {
-//  font-family: 'Josefin Sans';
-//  src: url(http://fonts.googleapis.com/css?family=Josefin+Sans);
-//}
+
 @import "app";
 
-.cursive{
+
+.appHeading{
+  margin-top:3%;
+}
+
+
+.cursive_heading{
   font-family: 'AlexBrush',sans-serif;
   font-size: 2em;
-  color: #FFFFFF;
+  color: #419AB1;
+}
+
+.cursive{
+  font-family: 'Pacifico',sans-serif;
+  color: #E05A48;
+}
+
+.cursive_button{
+  font-family: 'Capriola',sans-serif;
+  color: #E05A48;
+  font-size: 1.3em;
+}
+
+
+.captions{
+  font-family: 'Pacifico',sans-serif;
+  color:#000000;
+  font-size:.7em;
+  opacity: .3;
+  height: 0.7em;
 }
 
 .appName{
   font-family: "Pacifico", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-style: cursive;
   font-size: 3em;
-  color: #ffb058;
+  color: #2E2E2E;
 }
 
-.appHeading{
-  margin-top:15%;
-}
+
 
 .centerText{
+  width: 100%;
   text-align: center;
 }
 
 .center{
   margin-left:auto;
   margin-right:auto;
-  width:90%;
+  width:98%;
   text-align: center;
 }
 
 .bottom{
-  position:absolute;
+  position:fixed;
   bottom:0;
+  margin: 0px;
+  padding: 0px;
 }
 
-.rightText{
-  text-align: right;
+
+.alignleft {
+  float: left;
+  width:33.33333%;
+  text-align:left;
 }
+
+.aligncenter {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+
+.alignright {
+  float: left;
+  width:33.33333%;
+  text-align:right;
+
+}​
+
+
+
 
 .textured_stripes{
-  background:url(../images/general/textured_stripes.png);
+  background:url(../images/general/exclusive_paper.png);
 }
 
 .textured_paper{
@@ -84,70 +126,34 @@
 }
 
 .textured_photography{
-  background:url(../images/general/photography.png);
-
+  background: url(../images/general/photography.png);
 }
 
-.backgroundImage{
-  background:url(../images/general/bgImage1.jpg);
+.mainSlide{
+  width:100%;
+  height:45%;
+  overflow: hidden;
 }
 
-.imageWidth{
-  max-width: 100%;
-  max-height: 100%;
+.circular {
+  margin-top: 8px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+//  background: url(http://link-to-your/image.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.gradientBackground{
-  //  /* IE10 Consumer Preview */
-  //  background: -ms-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-  //
-  //  /* Mozilla Firefox */
-  //  background: -moz-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-  //
-  //  /* Opera */
-  //  background: -o-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-  //
-  //  /* Webkit (Safari/Chrome 10) */
-  //  background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #EBEBEB), color-stop(1, #E0CECE));
-  //
-  //  /* Webkit (Chrome 11+) */
-  //  background: -webkit-radial-gradient(center, circle farthest-corner, #EBEBEB 0%, #E0CECE 100%);
-  //
-  //  /* W3C Markup, IE10 Release Preview */
-  //  background: radial-gradient(circle farthest-corner at center, #EBEBEB 0%, #E0CECE 100%);
-}
 
 .transparent{
   background: none;
 }
 
-
-
-.gradientBackgroundGrayWhite{
-  /* IE10 Consumer Preview */
-  background: -ms-linear-gradient(left, #CFCFCF 0%, #999999 100%);
-
-  /* Mozilla Firefox */
-  background: -moz-linear-gradient(left, #CFCFCF 0%, #999999 100%);
-
-  /* Opera */
-  background: -o-linear-gradient(left, #CFCFCF 0%, #999999 100%);
-
-  /* Webkit (Safari/Chrome 10) */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #CFCFCF), color-stop(1, #999999));
-
-  /* Webkit (Chrome 11+) */
-  background: -webkit-linear-gradient(left, #CFCFCF 0%, #999999 100%);
-
-  /* W3C Markup, IE10 Release Preview */
-  background: linear-gradient(to right, #CFCFCF 0%, #999999 100%);
-}
-
-.blurred-background-blackMagenta{
-//  background: url('../images/general/icons-asphalt.jpg') no-repeat fixed;
-//  background-size: cover;
-//  opacity:0.9;
-}
 
 .transparentBackground{
   background-color: rgba(255, 255, 255, 0.1);

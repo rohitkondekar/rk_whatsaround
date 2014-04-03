@@ -2,6 +2,11 @@
 angular.module('Whatsaround.controllers', ['Whatsaround.services','ionic'])
 
 
+
+    .controller('unauthorizedhomeCtrl', function(){
+
+    })
+
 //    Login Controller
     .controller('LoginCtrl', ['$scope', '$location', 'Auth', '$state', 'Loader', '$rootScope', function ($scope, $location, Auth, $state, Loader, $rootScope) {
 
